@@ -104,5 +104,30 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Arca Sofa <====== -->
+    <!-- ======> White Space <====== -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-spacer height="15px" />
+      </mj-column>
+    </mj-section>
+    <!-- ======> / White Space <====== -->
+    <!-- ======> Toba Table <====== -->
+    <mj-section background-color="#ffffff" direction="rtl">
+      <mj-column padding="18px" vertical-align="middle">
+        <mj-image href="#" src="https://i.ibb.co/92mqc7G/toba-table.jpg" alt="Toba Table" />
+      </mj-column>
+      <mj-column padding="18px" vertical-align="middle">
+        <mj-text font-size="21px" font-weight="300" letter-spacing="1px" color="#777777">
+          Toba Table
+        </mj-text>
+        <mj-text padding-top="27px" font-size="15px" line-height="27px" color="#777777">
+          Teak again in the same vintage-inspired hue. Finished with powder-coated legs, this low-profile table maximizes space and shows off the dimensional grain of the wood. 
+        </mj-text>
+        <mj-text padding-top="30px" font-size="16px" letter-spacing=".6px">
+          <a href="#" style="text-decoration: underline; color: #ff6458;">Shop the Toba</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Toba Table <====== -->
   </mj-body>
 </mjml>
