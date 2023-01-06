@@ -41,6 +41,11 @@
       img {
         border: 0;
       }
+      @media only screen and (max-width: 599.8px) {
+        .copy-body {
+          padding: 24px 45px 0 !important;
+        }
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#f6f6f6">
@@ -62,10 +67,10 @@
     <!-- ======> Hero Copy & CTA <====== -->
     <mj-section background-color="#ffffff">
       <mj-column padding="30px 0">
-        <mj-text align="center" font-size="30px" font-weight="300" text-transform="uppercase" letter-spacing="1.5px" color="#999999">
+        <mj-text align="center" font-size="30px" font-weight="300" text-transform="uppercase" letter-spacing="1.5px" color="#777777">
           Lake Tahoe
         </mj-text>
-        <mj-text align="center" padding-top="24px" font-size="15px" line-height="30px" color="#999999">
+        <mj-text css-class="copy-body" align="center" padding="24px 90px 0" font-size="15px" line-height="30px" color="#777777">
           Rich, dimensional woods. Woven details. Organic textures. This collection evokes a tranquil lakeside getaway — an invitation to relax in the great outdoors.
         </mj-text>
         <mj-button href="#" padding-top="24px" font-size="15px" font-weight="300" text-transform="uppercase" letter-spacing="1px" border-radius="21px" background-color="#ff6458">
