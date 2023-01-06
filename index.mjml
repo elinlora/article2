@@ -79,5 +79,12 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Hero Copy & CTA <====== -->
+    <!-- ======> Horizontal Rule <====== -->
+    <mj-section background-color="#ffffff">
+      <mj-column padding="0 30px">
+        <mj-divider border-width="1px" border-style="solid" border-color="#f1f1f1" />
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Horizontal Rule <====== -->
   </mj-body>
 </mjml>
