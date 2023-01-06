@@ -1,9 +1,9 @@
 <mjml>
   <mj-head>
     
-    <mj-title></mj-title>
+    <mj-title>Article</mj-title>
 
-    <mj-preview></mj-preview>
+    <mj-preview>Lake Tahoe</mj-preview>
 
     <mj-font name="" href="" />
 
@@ -11,17 +11,46 @@
 
       <mj-class name="" />
     
-      <mj-text padding="0" font-family="" />
+      <mj-text padding="0" font-family="Arial" />
       <mj-wrapper padding="0" />
       <mj-section padding="0" />
       <mj-column padding="0" />
       <mj-image padding="0" />
+      <mj-button padding="0" />
 
     </mj-attributes>
 
-    <mj-style></mj-style>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+      h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      img {
+        border: 0;
+      }
+    </mj-style>
   </mj-head>
-  <mj-body>
-
+  <mj-body background-color="#f6f6f6">
+    <!-- ======> Header <====== -->
+    <!-- <mj-include path="components/header.mjml" /> -->
+    <mj-section background-color="#ffffff">
+      <mj-column padding="21px 0">
+        <mj-image href="#" src="https://i.ibb.co/2yJ1h8Y/article-logo.png" alt="Article" width="240px" />
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Header <====== -->
   </mj-body>
 </mjml>
