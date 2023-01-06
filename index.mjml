@@ -5,13 +5,13 @@
 
     <mj-preview>Lake Tahoe</mj-preview>
 
-    <mj-font name="" href="" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" />
 
     <mj-attributes>
 
       <mj-class name="" />
     
-      <mj-text padding="0" font-family="Arial" />
+      <mj-text padding="0" font-family="Roboto" />
       <mj-wrapper padding="0" />
       <mj-section padding="0" />
       <mj-column padding="0" />
@@ -59,5 +59,20 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Hero Image <====== -->
+    <!-- ======> Hero Copy & CTA <====== -->
+    <mj-section background-color="#ffffff">
+      <mj-column padding="30px 0">
+        <mj-text align="center" font-size="30px" font-weight="300" text-transform="uppercase" letter-spacing="1.5px" color="#999999">
+          Lake Tahoe
+        </mj-text>
+        <mj-text align="center" padding-top="24px" font-size="15px" line-height="30px" color="#999999">
+          Rich, dimensional woods. Woven details. Organic textures. This collection evokes a tranquil lakeside getaway — an invitation to relax in the great outdoors.
+        </mj-text>
+        <mj-button href="#" padding-top="24px" font-size="15px" font-weight="300" text-transform="uppercase" letter-spacing="1px" border-radius="21px" background-color="#ff6458">
+          shop the look
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Hero Copy & CTA <====== -->
   </mj-body>
 </mjml>
