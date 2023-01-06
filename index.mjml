@@ -52,5 +52,12 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Header <====== -->
+    <!-- ======> Hero Image <====== -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image href="#" src="https://i.ibb.co/6g9k46F/article-hero.jpg" alt="Lake Tahoe" />
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Hero Image <====== -->
   </mj-body>
 </mjml>
