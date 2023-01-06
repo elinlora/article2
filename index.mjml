@@ -129,5 +129,37 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Toba Table <====== -->
+    <!-- ======> White Space <====== -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-spacer height="15px" />
+      </mj-column>
+    </mj-section>
+    <!-- ======> / White Space <====== -->
+    <!-- ======> Toba Table <====== -->
+    <mj-section background-color="#ffffff">
+      <mj-column padding="18px" vertical-align="middle">
+        <mj-image href="#" src="https://i.ibb.co/x7pZxzk/tupo-lounger.jpg" alt="Tupo Lounger" />
+      </mj-column>
+      <mj-column padding="18px" vertical-align="middle">
+        <mj-text font-size="21px" font-weight="300" letter-spacing="1px" color="#777777">
+          Tupo Lounger
+        </mj-text>
+        <mj-text padding-top="27px" font-size="15px" line-height="27px" color="#777777">
+          Looking for something more textural? The Tupo’s durable, intricate knots add visual interest without sacrificing comfort. Sunny relaxation awaits.
+        </mj-text>
+        <mj-text padding-top="30px" font-size="16px" letter-spacing=".6px">
+          <a href="#" style="text-decoration: underline; color: #ff6458;">Shop the Tupo</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Toba Table <====== -->
+    <!-- ======> White Space <====== -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-spacer height="15px" />
+      </mj-column>
+    </mj-section>
+    <!-- ======> / White Space <====== -->
   </mj-body>
 </mjml>
