@@ -45,6 +45,9 @@
         .copy-body {
           padding: 24px 45px 0 !important;
         }
+        .ugc-img > table > tbody > tr > td {
+          width: 100% !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -136,7 +139,7 @@
       </mj-column>
     </mj-section>
     <!-- ======> / White Space <====== -->
-    <!-- ======> Toba Table <====== -->
+    <!-- ======> Tupo Lounger <====== -->
     <mj-section background-color="#ffffff">
       <mj-column padding="18px" vertical-align="middle">
         <mj-image href="#" src="https://i.ibb.co/x7pZxzk/tupo-lounger.jpg" alt="Tupo Lounger" />
@@ -153,7 +156,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <!-- ======> / Toba Table <====== -->
+    <!-- ======> / Tupo Lounger <====== -->
     <!-- ======> White Space <====== -->
     <mj-section background-color="#ffffff">
       <mj-column>
@@ -161,5 +164,82 @@
       </mj-column>
     </mj-section>
     <!-- ======> / White Space <====== -->
+    <!-- ======> Footer Heading <====== -->
+    <mj-section background-color="#f0f0f0">
+      <mj-column padding="21px 0">
+        <mj-text align="center" font-size="24px" font-weight="300" letter-spacing="1px" color="#777777">
+          #OurArticle
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Footer Heading <====== -->
+    <!-- ======> Footer UGC <====== -->
+    <mj-wrapper background-color="#f0f0f0">
+      <mj-section padding="0 15px">
+        <mj-column padding="6px">
+          <mj-image css-class="ugc-img" href="#" src="https://i.ibb.co/8KxJt8H/article-ugc-1.jpg" alt="UGC" />
+        </mj-column>
+        <mj-column padding="6px">
+          <mj-image css-class="ugc-img" href="#" src="https://i.ibb.co/5WZxpVp/article-ugc-2.jpg" alt="UGC" />
+        </mj-column>
+        <mj-column padding="6px">
+          <mj-image css-class="ugc-img" href="#" src="https://i.ibb.co/qWS9Qpk/article-ugc-3.jpg" alt="UGC" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- ======> / Footer UGC <====== -->
+    <!-- ======> Footer Body <====== -->
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-text align="center" padding-top="21px" font-size="16px" font-weight="300" line-height="24px" letter-spacing="1px" color="#777777">
+          Tag your photos with #OurArticle and share <br> how you make your home a peaceful oasis <br> using Article products.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Footer Body <====== -->
+    <!-- ======> Footer Social <====== -->
+    <mj-section background-color="#f0f0f0">
+      <mj-column padding="21px 0"> 
+        <mj-text align="center">
+          <a href="#" style="padding: 12px;">
+            <img src="https://i.ibb.co/6YfpdvK/instagram.png" alt="Instagram" style="width: 30px;">
+          </a>
+          <a href="#" style="padding: 12px;">
+            <img src="https://i.ibb.co/4fLRrZb/facebook.png" alt="Facebook" style="width: 30px;">
+          </a>
+          <a href="#" style="padding: 12px;">
+            <img src="https://i.ibb.co/QbS350m/pinterest.png" alt="Pinterest" style="width: 30px;">
+          </a>
+          <a href="#" style="padding: 12px;">
+            <img src="https://i.ibb.co/rFkBfCf/twitter.png" alt="Twitter" style="width: 30px;">
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Footer Social <====== -->
+    <!-- ======> Footer Bottom <====== -->
+    <mj-section background-color="#f0f0f0">
+      <mj-column padding-bottom="45px">
+        <mj-text align="center" padding="0 21px" font-size="12px" line-height="15px" color="#777777">
+          We are sending you this email as you have signed up on our website to be the first to know when <br> we launch new products or announce new sales. 
+        </mj-text>
+        <mj-text align="center" padding="12px 21px 0" font-size="12px" line-height="15px" color="#777777">
+          If you would no longer like to receive these emails, <a href="#" style="text-decoration: underline; color: #ff6458;">unsubscribe</a>. If you would like to unsubscribe <br> from all Article.com marketing emails, <a href="#" style="text-decoration: underline; color: #ff6458;">click here</a>.
+        </mj-text>
+        <mj-text align="center" padding="12px 21px 0" font-size="12px" line-height="15px" color="#777777">
+          Privacy policy: <a href="#" style="text-decoration: underline; color: #ff6458;">View our privacy policy</a>
+        </mj-text>
+        <mj-text align="center" padding="12px 21px 0" font-size="12px" line-height="15px" color="#777777">
+          Article, 1010 Raymur St., Vancouver, BC, Canada, V6A 3T2
+        </mj-text>
+        <mj-text align="center" padding="12px 21px 0" font-size="12px" line-height="15px" color="#777777">
+          <a href="#" style="text-decoration: underline; color: #ff6458;">www.article.com</a>
+        </mj-text>
+        <mj-text align="center" padding="12px 21px 0" font-size="12px" line-height="15px" color="#777777">
+          © 2020 Article. All Rights Reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Footer Bottom <====== -->
   </mj-body>
 </mjml>
