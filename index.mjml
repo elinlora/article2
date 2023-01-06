@@ -86,5 +86,23 @@
       </mj-column>
     </mj-section>
     <!-- ======> / Horizontal Rule <====== -->
+    <!-- ======> Arca Sofa <====== -->
+    <mj-section background-color="#ffffff">
+      <mj-column padding="18px" vertical-align="middle">
+        <mj-image href="#" src="https://i.ibb.co/5h4KgwH/arca-sofa.jpg" alt="Arca Sofa" />
+      </mj-column>
+      <mj-column padding="18px" vertical-align="middle">
+        <mj-text font-size="21px" font-weight="300" letter-spacing="1px" color="#777777">
+          Arca Sofa
+        </mj-text>
+        <mj-text padding-top="27px" font-size="15px" line-height="27px" color="#777777">
+          For the minimalists. Crafted from solid teak, this Scandi-inspired number is designed to weather the elements and develop a beautiful patina with time.
+        </mj-text>
+        <mj-text padding-top="30px" font-size="16px" letter-spacing=".6px">
+          <a href="#" style="text-decoration: underline; color: #ff6458;">Shop the Arca</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ======> / Arca Sofa <====== -->
   </mj-body>
 </mjml>
