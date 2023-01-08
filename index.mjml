@@ -48,6 +48,10 @@
         .ugc-img > table > tbody > tr > td {
           width: 100% !important;
         }
+        .footer-pad {
+          padding-left: 60px !important;
+          padding-right: 60px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -91,10 +95,10 @@
     <!-- ======> / Horizontal Rule <====== -->
     <!-- ======> Arca Sofa <====== -->
     <mj-section background-color="#ffffff">
-      <mj-column padding="18px" vertical-align="middle">
+      <mj-column padding="30px" vertical-align="middle">
         <mj-image href="#" src="https://i.ibb.co/5h4KgwH/arca-sofa.jpg" alt="Arca Sofa" />
       </mj-column>
-      <mj-column padding="18px" vertical-align="middle">
+      <mj-column padding="30px" vertical-align="middle">
         <mj-text font-size="21px" font-weight="300" letter-spacing="1px" color="#777777">
           Arca Sofa
         </mj-text>
@@ -116,10 +120,10 @@
     <!-- ======> / White Space <====== -->
     <!-- ======> Toba Table <====== -->
     <mj-section background-color="#ffffff" direction="rtl">
-      <mj-column padding="18px" vertical-align="middle">
+      <mj-column padding="30px" vertical-align="middle">
         <mj-image href="#" src="https://i.ibb.co/92mqc7G/toba-table.jpg" alt="Toba Table" />
       </mj-column>
-      <mj-column padding="18px" vertical-align="middle">
+      <mj-column padding="30px" vertical-align="middle">
         <mj-text font-size="21px" font-weight="300" letter-spacing="1px" color="#777777">
           Toba Table
         </mj-text>
@@ -141,10 +145,10 @@
     <!-- ======> / White Space <====== -->
     <!-- ======> Tupo Lounger <====== -->
     <mj-section background-color="#ffffff">
-      <mj-column padding="18px" vertical-align="middle">
+      <mj-column padding="0 30px" vertical-align="middle">
         <mj-image href="#" src="https://i.ibb.co/x7pZxzk/tupo-lounger.jpg" alt="Tupo Lounger" />
       </mj-column>
-      <mj-column padding="18px" vertical-align="middle">
+      <mj-column padding="0 30px" vertical-align="middle">
         <mj-text font-size="21px" font-weight="300" letter-spacing="1px" color="#777777">
           Tupo Lounger
         </mj-text>
@@ -160,7 +164,7 @@
     <!-- ======> White Space <====== -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-spacer height="15px" />
+        <mj-spacer height="45px" />
       </mj-column>
     </mj-section>
     <!-- ======> / White Space <====== -->
@@ -220,10 +224,10 @@
     <!-- ======> Footer Bottom <====== -->
     <mj-section background-color="#f0f0f0">
       <mj-column padding-bottom="45px">
-        <mj-text align="center" padding="0 21px" font-size="12px" line-height="15px" color="#777777">
+        <mj-text css-class="footer-pad" align="center" padding="0 21px" font-size="12px" line-height="15px" color="#777777">
           We are sending you this email as you have signed up on our website to be the first to know when <br> we launch new products or announce new sales. 
         </mj-text>
-        <mj-text align="center" padding="12px 21px 0" font-size="12px" line-height="15px" color="#777777">
+        <mj-text css-class="footer-pad" align="center" padding="12px 21px 0" font-size="12px" line-height="15px" color="#777777">
           If you would no longer like to receive these emails, <a href="#" style="text-decoration: underline; color: #ff6458;">unsubscribe</a>. If you would like to unsubscribe <br> from all Article.com marketing emails, <a href="#" style="text-decoration: underline; color: #ff6458;">click here</a>.
         </mj-text>
         <mj-text align="center" padding="12px 21px 0" font-size="12px" line-height="15px" color="#777777">
