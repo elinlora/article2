@@ -203,7 +203,7 @@
     <!-- ======> / Footer Body <====== -->
     <!-- ======> Footer Social <====== -->
     <mj-section background-color="#f0f0f0">
-      <mj-column padding="21px 0"> 
+      <mj-column padding="30px 0"> 
         <mj-text align="center">
           <a href="#" style="padding: 12px;">
             <img src="https://i.ibb.co/6YfpdvK/instagram.png" alt="Instagram" style="width: 30px;">
